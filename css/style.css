@@ -1,0 +1,575 @@
+/*add background color on top navigation*/
+.topnav img{
+  padding-top: 10px;
+  padding-left: 40px;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: white;
+  }
+  li {
+    float: right;
+    padding-bottom: 15px;
+  }
+  li a {
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+
+  /*slide1...*/
+.top-left h1{
+  font-size: 20; 
+  font-family: Times New Roman; 
+  color: white; 
+  position: absolute; 
+  top:250px; 
+  left :120px; 
+}
+
+.top-left p{
+  font-size: 60; 
+  font-family: Cambria; 
+  color: white; 
+  position: absolute; 
+  top:270px; 
+  left :120px;
+}
+
+.top-right h1{
+  font-size: 20; 
+  font-family: Cambria; 
+  color: white; 
+  position: absolute; 
+  top:260px; 
+  right :120px
+}
+
+.top-right p{
+  font-size: 20; 
+  font-family: Cambria; 
+  color: white; 
+  position: absolute; 
+  top:400px; 
+  right :300px;
+}
+  .button{
+    border-color: rgb(23, 173, 232);
+    border-radius: 30px;
+    background-color: rgb(23, 173, 232);
+    color: white;
+    padding: 16px 32px;
+    font-size: 16px;
+    margin-left: 1000px;         
+    margin-top: -200px;
+  }
+
+  .background{
+    background-image: url(../images/7d4f0734-43ed-4304-80cb-7ba55a2d7c64.jpg);
+    height: 90%;
+    width: 100%;
+    object-fit: cover;
+    object-position: 100px 100px;
+  }
+  .ic{  
+  margin-top: -100px;
+  margin-left: 110px;
+  }
+.ic img{
+  height: 40px;
+  width: 40px;
+}
+
+  /*slide2...*/
+  .slide2 h1{
+    padding-top: 150px;
+    font-size: 50px; 
+    text-align: center;
+  }
+  .slide2 p{
+    text-align: center;
+  }
+  .grid-container {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    background-color: #f9f9f9;   
+  }
+ 
+  .table {
+    display: grid;
+    text-align: center;
+    row-gap: 50px;
+    column-gap: 10px;
+    grid-template-columns: 50% 50%;
+  }
+
+  .img1 img{
+    height: 100%;
+    width: 100%;
+  }
+
+  .column11{
+    background-color: rgb(0, 0, 255);
+  }
+  
+  .column12{
+    background-color: rgb(162, 162, 172);
+  }
+
+  .column21{
+    background-color: rgb(162, 162, 172);
+  }
+  .column22{
+    background-color: rgb(240, 63, 63);
+  }
+  .row1 img{
+    height: 35%;
+    width: 35%;
+  }
+  .row2 img{
+    height: 35%;
+    width: 35%;
+  }
+
+ /*slide3...*/
+ .grid-container1 {
+    position: relative;
+    left: 10px;
+    right: 10px;
+    text-align: center;
+    display: grid;
+    gap: 50px 50px;
+    grid-template-columns: auto;
+    background-color: rgb(207, 211, 213);
+    padding: 20px;
+  }
+
+/*slide4...*/
+.slide4{
+  position: relative;
+}
+.image img{
+    margin-top: 150px;
+    margin-left: 90px;
+    left: 200px;
+    height: 400px;
+    width: 650px;
+    
+  }
+  .dot{
+    position: relative;
+    color: #f9f9f9;
+    height: 250px;
+    width: 250px;
+    display: inline-block;
+    margin-top: -500px;
+    margin-left: 650px;
+    border-radius: 50%;
+    background-image:linear-gradient(rgb(73, 79, 245) , rgb(223, 41, 132));
+  }
+  .dot01{
+    position: relative;
+    color: #f9f9f9;
+    height: 350px;
+    display: inline-block;
+    width: 300px;
+    margin-left: 800px;
+    margin-top: -350px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 100px;
+    background-color: lightgray;
+  }
+  
+  .dot01 h1{
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .dot01 p{
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .button1{
+    border-color: rgb(232, 6, 85);
+    border-radius: 30px;
+    background-color: rgb(232, 6, 85);
+    color: rgb(190, 184, 184);
+    padding: 16px 32px;
+    font-size: 16px;
+    top: 260px;
+    left : 50px;
+  }
+
+
+  /*slide5...*/
+  .slide5{
+    position: absolute;
+    background-image: linear-gradient(rgb(73, 79, 245) , rgb(223, 41, 132) );
+    background-size: cover;
+    margin-top: 200px;
+    height: 100%;
+    width: 100%;
+  }
+  .row11{
+    margin: auto;
+    padding-left: 80px;
+  }
+
+  .column1{
+    width: 100%;
+    display: block;
+    clear: both;
+  }
+  .column1 img{
+    width: 150px;
+    height: 150px;
+  }
+.card1 {
+    position: relative;
+    background-color: white;
+    margin-top: 200px;
+    margin-left: 10px;
+    max-width: 250px;
+    padding-bottom: 100px;
+    text-align: center;
+    font-family: arial;
+  }
+  .card2 {
+    background-color: white;
+    margin-left: 280px;
+    margin-top: -600px;
+    max-width: 250px;
+    padding-bottom: 100px;
+    text-align: center;
+    font-family: arial;
+  }
+  .card3 {
+    background-color: white;
+    margin-left: 555px;   
+    margin-top: -330px;
+    max-width: 250px;
+    padding-bottom: 100px;
+    text-align: center;
+    font-family: arial;
+  }
+  .card4 {
+    background-color: white;
+    margin-left: 835px;
+    margin-top: -580px;
+    max-width: 250px;
+    padding-bottom: 100px;
+    text-align: center;
+    font-family: arial;
+  }
+  .card5 {
+    background-color: white;
+    margin-left: 1120px;
+    margin-top: -330px;
+    max-width: 250px;
+    padding-bottom: 100px;
+    text-align: center;
+    font-family: arial;
+  }
+  .card1 h1{
+    color: rgb(74, 74, 233);
+  }
+  .card3 h1{
+    color: rgb(74, 74, 233);
+  }
+  .card5 h1{
+    color: rgb(74, 74, 233);
+  }
+  .card2 h1{
+    color: rgb(233, 74, 188);
+  }
+  .card4 h1{
+    color: rgb(233, 74, 188);
+  }
+  .slide5 a:link{
+    position: relative;
+    color: black;
+    text-decoration: underline;
+  }
+
+  /*slide6...*/
+  .slide6{
+    background-color:rgb(200, 200, 200) ;
+    position: relative;
+    margin-top: 1000px;
+    height: 120%;
+    width: 100%;
+  } 
+  .tab6{
+    width: 70%;
+    margin-left: 200px;
+  }
+  .td1{
+    width: 33%;
+  }
+  .td1 img{
+    height: 350px;
+    width: 350px;
+    margin-left: 30px;
+  }
+  .td2{
+    width: 25%;
+    padding-top: 100px;
+  }
+  .td2 img{
+    height: 350px;
+    width: 350px;
+  }
+  .td3{
+    width: 34%;
+  }
+  .td3 img{
+    height: 350px;
+    width: 350px;
+  }
+  .tr1{
+    padding-top: 50px;
+    padding-left: 10px;
+    background-color: white;
+    height: 300px;
+  }
+  .tr4{
+    padding-top: 60px;
+    padding-left: 10px;
+    background-image:linear-gradient(rgb(239, 53, 16) , rgb(101, 101, 224)) ;
+    height: 300px;
+  }
+  
+
+  /*slide7...*/
+  .slide7{
+    background-color:rgb(200, 200, 200);
+    position: relative;
+    background-size: 100%;
+    height: 730px;
+    width: 100%;
+  }
+  .b1{
+    background-color: rgb(101, 101, 224);
+    top: 250px;
+    left: 120px;
+    position: relative;
+    height: 400px;
+    width: 700px;
+  } 
+  .dot1{
+    color: #f9f9f9;
+    position: relative;
+    height: 400px;
+    width: 1060px;
+    display: inline-block;
+    margin-top: -300px;
+    margin-left: 250px;
+    background-image:linear-gradient(rgb(239, 53, 16) , rgb(101, 101, 224));
+  }
+  .tab1{
+    position: absolute;
+    margin-top: -340px;
+    margin-left: 200px;
+    padding: 50px;
+    width: 70%;
+    height: 60%;
+    border-collapse: collapse;
+  }
+  .td12{
+    background-color: white;  
+    border-collapse: collapse;
+  }    
+  .td11{
+    background-image: url("../images/dsf.jpg");
+    background-size: 100%;
+    width: 50%;
+    height: 50%;
+    background-repeat: no-repeat;
+    position: relative;
+  }  
+  .td12 h1 {
+    margin-left: 60px;
+    color: black;
+    font-size: 50;
+  }
+  .td12 p {
+    position: relative;
+    color: black;
+    margin-left: 70px;
+  }
+  .button3{
+    border-color: rgb(232, 6, 85);
+    background-color: rgb(232, 6, 85);
+    border-radius:200px;
+    color: rgb(255, 255, 255);
+    padding: 16px 25px;
+    font-size: 16px;              
+    top: 400px;
+    margin-left: 70px;
+    display: inline-block;
+    width: 200px;
+  }
+
+  /*slide8...*/
+  .slide8{
+    position: relative;
+    margin-left: 500px;
+    background-image: linear-gradient(rgb(182, 19, 100) ,rgb(99, 42, 206)  );
+    height: 900px;
+    width: 550px;
+  }
+  .grid-container3 {
+    display: grid;
+    position: absolute;
+    top: 100px;
+    left: -210px;
+    right: 100px;
+    grid-template-columns: auto auto auto;
+  }
+  .grid-item {
+    padding: 10px;
+    padding-top: 10px;
+    text-align: center;
+  }
+
+  .grid-item img{
+    height: 300px;
+    width: 310px;
+  }
+.s81{
+  background-color: white;
+  position: relative;
+  top: 670px;
+  height: 300px;
+  width: 350px;
+  margin-left: 420px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+  .s81 h1,p{
+    font-size: 20;
+    font-family: Arial, Helvetica, sans-serif;
+
+  }
+  .button4{
+    border-color: rgb(232, 6, 85);
+    background-color: rgb(232, 6, 85);
+    border-radius:200px;
+    color: rgb(255, 255, 255);
+    padding: 16px 25px;
+    font-size: 16px;              
+    top: 400px;
+    margin-left: 10px;
+    display: inline-block;
+    width: 200px;
+  }
+
+
+  /*slide9....*/
+.slide9{
+  background-color: lightgray;
+  height: 100%;
+  width: 100%;
+}
+.dot2{
+  color: #f9f9f9;
+  position: relative;
+  height: 200px;
+  width: 1500px;
+  display: inline-block;
+  margin-top: 300px;
+  background-image:linear-gradient(rgb(239, 53, 16) , rgb(101, 101, 224));
+}
+
+input[type=text], select, textarea {
+  width: 90%; /* Full width */
+  padding: 12px; /* Some padding */ 
+  border: 1px solid #ccc; /* Gray border */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  background-color: rgb(238, 235, 235);
+ }
+ /* Style the submit button with a specific background color etc */
+input[type=submit] {
+   background-color: rgb(232, 6, 85);
+   color: white;
+   padding: 12px 20px;
+   border: none;
+   cursor: pointer;
+   width:90%;
+}
+
+.tab2{
+  position: absolute;
+    margin-top: -340px;
+    margin-left: 200px;
+    padding: 50px;
+    width: 70%;
+    height: 60%;
+    border-collapse: collapse;
+}
+.td111{
+  background-color: white;
+  size: 50%;
+}
+.td112{
+  width: 50%;
+  background-color: white;
+}
+.ic1{
+  margin-top: 100px;
+  margin-left: 110px;
+}
+.ic1 img{
+  height: 30px;
+  width: 30px;
+}
+.td111 p{
+  padding-top: 10px;
+  padding-left: 40px;
+  font-size: 20px;
+}
+.td111 h1{
+  font-size: 30;
+  padding-left: 40px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.td111 img{
+  height: 30px;
+  width: 30px;
+}
+
+/*FOOTER....*/
+.footer{
+  background-color: #180808;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  text-align: center;
+  height: 30%;
+  padding: 20px;
+}
+.img-icon{
+padding: 20px;
+font-size: 30px;
+width: 30px;
+text-align: center;
+text-decoration: none;
+margin: 2px 2px;
+
+}
+.footer a:link{
+padding-top: 30px;
+color: blue;
+background-color: transparent;
+text-decoration: underline;
+
+}
